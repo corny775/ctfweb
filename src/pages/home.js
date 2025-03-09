@@ -79,7 +79,6 @@ export default function Home() {
         <title>TECHNIX 2025 - Web Hacking CTF Challenges</title>
         <meta name="description" content="Learn web security through hands-on challenges" />
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet" />
       </Head>
 
       <div className={styles.backgroundOverlay}></div>

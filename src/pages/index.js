@@ -36,7 +36,6 @@ export default function Home() {
         <title>CTF 2025 - Web Security CTF Challenge</title>
         <meta name="description" content="Test your web security skills in our Squid Game inspired CTF" />
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet" />
       </Head>
 
       <div className={styles.backgroundOverlay}></div>

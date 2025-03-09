@@ -2,33 +2,34 @@ import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
+import Image from 'next/image'; // Import Next.js Image component
 import styles from '@/styles/Level.module.css';
 
 // Define the levels and their flags
 const levels = {
   "1": {
     title: "Inspect Element",
-    description: "Sometimes what you see isn't everything there is.",
+    description: "Sometimes what you see isn&apos;t everything there is.",
     flag: "flag{hidden_in_plain_sight}",
   },
   "2": {
     title: "Cookie Monster",
-    description: "Websites use cookies to store information. Can you find what's stored?",
+    description: "Websites use cookies to store information. Can you find what&apos;s stored?",
     flag: "flag{c00k13_th13f}",
   },
   "3": {
     title: "JavaScript Console",
-    description: "Developers leave messages in the console. Check what's there.",
+    description: "Developers leave messages in the console. Check what&apos;s there.",
     flag: "flag{c0ns0l3_m4st3r}",
   },
   "4": {
     title: "Local Storage",
-    description: "Modern web apps store data locally. Can you find what's hidden?",
+    description: "Modern web apps store data locally. Can you find what&apos;s hidden?",
     flag: "flag{l0c4l_st0r4g3_h4ck3r}",
   },
   "5": {
     title: "Network Detective",
-    description: "What's being sent in the background? Check the network tab.",
+    description: "What&apos;s being sent in the background? Check the network tab.",
     flag: "flag{n3tw0rk_sn1ff3r}",
   },
   "6": {
@@ -38,7 +39,7 @@ const levels = {
   },
   "7": {
     title: "Source Mapper",
-    description: "Check the source maps to find what's hidden in the original code.",
+    description: "Check the source maps to find what&apos;s hidden in the original code.",
     flag: "flag{s0urc3_m4pp3r}",
   },
   "8": {
@@ -185,14 +186,21 @@ export default function Level() {
           
           {id === "2" && (
             <div className={styles.level2}>
-              <p>This website stores a cookie when you visit. Can you find what's inside?</p>
-              <img src="/api/placeholder/300/200" alt="Cookie jar" className={styles.image} />
+              <p>This website stores a cookie when you visit. Can you find what&apos;s inside?</p>
+              <div className={styles.image}>
+                <Image 
+                  src="/api/placeholder/300/200" 
+                  alt="Cookie jar" 
+                  width={300} 
+                  height={200} 
+                />
+              </div>
             </div>
           )}
           
           {id === "3" && (
             <div className={styles.level3}>
-              <p>Open your browser's developer console (F12) and check for messages.</p>
+              <p>Open your browser&apos;s developer console (F12) and check for messages.</p>
               <button 
                 className={styles.actionButton}
                 onClick={() => console.log("Hint: Keep watching the console output...")}
@@ -249,7 +257,7 @@ export default function Level() {
                 <li>Find the format in a hidden attribute</li>
               </ol>
               <div className={styles.finalHint}>
-                Remember everything you've learned about web inspection.
+                Remember everything you&apos;ve learned about web inspection.
               </div>
             </div>
           )}
