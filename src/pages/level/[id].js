@@ -254,17 +254,6 @@ export default function Level() {
             </div>
           )}
 
-          {/* This button is for demo purposes only - in a real CTF, flags would be discovered through solving the challenge 
-          <div className={styles.demoControls}>
-            <button 
-              onClick={handleRevealFlag} 
-              className={`${styles.demoButton} ${flagRevealed ? styles.disabled : ''}`}
-              disabled={flagRevealed}
-            >
-             /{flagRevealed ? 'Flag Revealed' : 'Demo: Reveal Flag'}
-            </button>
-          </div>*/}
-
           {flagRevealed && (
             <div className={styles.flagContainer}>
               <h3>You found the flag!</h3>

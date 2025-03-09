@@ -8,7 +8,7 @@ export default function Complete() {
     <div className={styles.container}>
       <Head>
         <title>Challenge Complete!</title>
-        <meta name="description" content="You've completed the CTF challenge" />
+        <meta name="description" content="You&apos;ve completed the CTF challenge" />
       </Head>
 
       <main className={styles.main}>
@@ -19,7 +19,7 @@ export default function Complete() {
         <div className={styles.fireworks}></div>
         
         <p className={styles.description}>
-          You've successfully completed all 8 levels of the WebHack CTF Challenge!
+          You&apos;ve successfully completed all 8 levels of the WebHack CTF Challenge!
         </p>
 
         <div className={styles.stats}>
