@@ -3,7 +3,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Image from 'next/image'; // Import Next.js Image component
-import styles from '@/styles/Level.module.css';
+import styles from '@/styles/level.module.css';
 
 // Define the levels and their flags
 const levels = {
