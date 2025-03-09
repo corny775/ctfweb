@@ -38,7 +38,7 @@ export default function Complete() {
 
         <div className={styles.finalFlag}>
           <p>Final Achievement Unlocked:</p>
-          <h3>flag{m4st3r_0f_w3b_s3cur1ty}</h3>
+          <h3>{'flag{m4st3r_0f_w3b_s3cur1ty}'}</h3>
         </div>
         
         <Link href="/" className={styles.homeButton}>
