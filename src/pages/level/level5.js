@@ -28,7 +28,7 @@ export default function Level5() {
         console.log('Analytics event sent');
       });
     }, 2000);
-  }, []);
+  }, [level.id]);
 
   // Function to reveal flag for demo purposes
   const handleRevealFlag = () => {

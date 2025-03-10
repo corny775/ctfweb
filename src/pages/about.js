@@ -51,7 +51,7 @@ export default function About() {
       clearTimeout(timer);
       window.removeEventListener('keydown', handleKeyDown);
     };
-  }, []);
+  }, [features.length]);
   
   return (
     <div className={styles.container}>

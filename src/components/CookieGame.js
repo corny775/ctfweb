@@ -262,7 +262,7 @@ const CookieGame = ({ onSuccess }) => {
           <li>Click on the shape outline to begin</li>
           <li>Hold the mouse button and trace the shape</li>
           <li>Release when you complete the shape</li>
-          <li>Don't go outside the lines or the cookie will break!</li>
+          <li>Dont go outside the lines or the cookie will break!</li>
         </ul>
       </div>
     </div>
