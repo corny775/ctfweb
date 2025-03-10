@@ -91,7 +91,7 @@ export default function Home() {
         </div>
         <nav className={styles.nav}>
           <Link href="/">Home</Link>
-          <Link href={`/level/5`} >About</Link>
+          <Link href="/about" >About</Link>
           <Link href="/events">Events</Link>
         </nav>
       </header>
