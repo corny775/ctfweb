@@ -28,7 +28,7 @@ export default function Level3() {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-level={3}>
       <Head>
         <title>Level {level.id} - {level.title}</title>
         <meta name="description" content={`CTF Challenge Level ${level.id}`} />

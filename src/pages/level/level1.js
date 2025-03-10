@@ -9,7 +9,7 @@ export default function Level1() {
   const level = {
     id: "1",
     title: "Inspect Element",
-    description: "Sometimes what you see isn&apos;t everything there is.",
+    description: "Sometimes what you see isnt everything there is.",
     flag: "flag{hidden_in_plain_sight}",
   };
 
@@ -19,7 +19,7 @@ export default function Level1() {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-level={1}>
       <Head>
         <title>Level {level.id} - {level.title}</title>
         <meta name="description" content={`CTF Challenge Level ${level.id}`} />

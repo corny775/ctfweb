@@ -254,7 +254,7 @@ const CookieGame = ({ onSuccess }) => {
             gameState === 'playing' ? 
             "Carefully trace the shape..." : 
             gameState === 'success' ? 
-            "Great job! Moving to Level 2..." : 
+            "Great job! Moving to CHALLENGE 2..." : 
             "The cookie broke! Try again."}
         </p>
         

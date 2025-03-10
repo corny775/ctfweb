@@ -10,7 +10,7 @@ export default function Level2() {
   const level = {
     id: "2",
     title: "Cookie Monster",
-    description: "Websites use cookies to store information. Can you find what&apos;s stored?",
+    description: "Websites use cookies to store information. Can you find whats stored?",
     flag: "flag{c00k13_th13f}",
   };
 
@@ -25,7 +25,7 @@ export default function Level2() {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-level={2}>
       <Head>
         <title>Level {level.id} - {level.title}</title>
         <meta name="description" content={`CTF Challenge Level ${level.id}`} />
@@ -33,7 +33,7 @@ export default function Level2() {
 
       <main className={styles.main}>
         <div className={styles.levelHeader}>
-          <h1>Level {level.id}: {level.title}</h1>
+          <h1>WEB CHALLENGE 2</h1>
           <div className={styles.navigationLinks}>
             <Link href="/home" className={styles.homeLink}>Back to Menu</Link>
           </div>
@@ -43,7 +43,7 @@ export default function Level2() {
           <p className={styles.description}>{level.description}</p>
           
           <div className={styles.level2}>
-            <p>This website stores a cookie when you visit. Can you find what&apos;s inside?</p>
+            <p>This website stores a cookie when you visit. Can you find whats inside?</p>
             <div className={styles.image}>
               <Image 
                 src="/api/placeholder/300/200" 

@@ -92,7 +92,7 @@ export default function Home() {
         <nav className={styles.nav}>
           <Link href="/">Home</Link>
           <Link href="/about" >About</Link>
-          <Link href="/events">Events</Link>
+          <Link href="/level/l3">L3</Link>
         </nav>
       </header>
 
@@ -125,10 +125,9 @@ export default function Home() {
         <div className={styles.instructions}>
           <h2>How to Play</h2>
           <ol>
-            <li>Choose any level to start - they are all independent</li>
-            <li>Use browser developer tools to find the hidden flag</li>
-            <li>Flags are in the format: flag&#123;some_text_here&#125;</li>
-            <li>Complete all 8 levels to become a web hacking expert!</li>
+            <li><Link href="/level/level1">inspect element</Link></li>
+            <li><Link href="/level/level5">Network Detective</Link></li>
+            <li><Link href="/level/level7">Source Mapper</Link></li>
           </ol>
         </div>
       </main>

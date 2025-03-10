@@ -72,7 +72,7 @@ export default function About() {
         </h1>
         
         <div className={styles.description}>
-          <h3>LEVEL 2</h3>
+          <h3>WEB CHALLENGE 1</h3>
 <h2>
 Prize Pool: ₹15,000</h2>
 <h3>
@@ -86,19 +86,6 @@ Event Highlights:</h2><h3>
 → Rules:</h2><h3>
 
 Bring your own laptops and tools
-
-Unauthorized system compromise = Disqualification
-
-Follow all event guidelines for a fair play
-
-Online tools allowed, but no external help/public sharing — violation leads to disqualification
-→ Hints available (but come with point deductions)
-→ Winner: Team with the highest score (ties broken by time)
-
-
-Whether youre a seasoned hacker or a budding enthusiast, Red Flag, Green Flag is where you prove your mettle and capture glory!
-
-Limited to 12 teams — so register fast!
 </h3>
         </div>
         
