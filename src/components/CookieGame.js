@@ -250,7 +250,7 @@ const CookieGame = ({ onSuccess }) => {
       <div className={styles.instructions}>
         <p>
           {gameState === 'ready' ? 
-            "Click on the shape and trace around it without lifting your finger. Don't break the cookie!" : 
+            "Click on the shape and trace around it without lifting your finger. Don&apos;t break the cookie!" : 
             gameState === 'playing' ? 
             "Carefully trace the shape..." : 
             gameState === 'success' ? 

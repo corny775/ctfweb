@@ -76,7 +76,7 @@ export default function About() {
 <h2>
 Prize Pool: ₹15,000</h2>
 <h3>
-Think you've got what it takes to crack codes and uncover hidden secrets? Red Flag, Green Flag is the ultimate Capture The Flag (CTF) competition where your cybersecurity skills will be put to the test! From cryptography, web security, reverse engineering, forensics, OSINT, and more — get ready to exploit vulnerabilities, decode challenges, and hunt for flags, all while avoiding those "red flags."
+Think youve got what it takes to crack codes and uncover hidden secrets? Red Flag, Green Flag is the ultimate Capture The Flag (CTF) competition where your cybersecurity skills will be put to the test! From cryptography, web security, reverse engineering, forensics, OSINT, and more — get ready to exploit vulnerabilities, decode challenges, and hunt for flags, all while avoiding those red flags.
 </h3><h2>
 Event Highlights:</h2><h3>
 → Team Size: BASE 64</h3><h2></h2><h3>
@@ -96,7 +96,7 @@ Online tools allowed, but no external help/public sharing — violation leads to
 → Winner: Team with the highest score (ties broken by time)
 
 
-Whether you're a seasoned hacker or a budding enthusiast, Red Flag, Green Flag is where you prove your mettle and capture glory!
+Whether youre a seasoned hacker or a budding enthusiast, Red Flag, Green Flag is where you prove your mettle and capture glory!
 
 Limited to 12 teams — so register fast!
 </h3>
