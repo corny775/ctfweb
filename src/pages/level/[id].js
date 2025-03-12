@@ -10,32 +10,33 @@ import CookieGame from '@/components/CookieGame';
 // Import all level components
 import Level1 from './level1';
 import Level2 from './level2';
-import Level3 from './level3';
+//import Level3 from './level3';
 import Level4 from './level4';
 import Level5 from './level5';
 import Level6 from './level6';
 import Level7 from './level7';
 import Level8 from './level8';
+import Level3 from './l3';
 
 // Define the levels and their flags
 const levels = {
-  "1": {
+  "3": {
     title: "Inspect Element",
-    description: "Sometimes what you see isn&apos;t everything there is.",
+    description: "Sometimes what you see isnt everything there is.",
     flag: "flag{hidden_in_plain_sight}",
-    component: Level1
+    component: Level3
   },
   "2": {
     title: "Cookie Monster",
-    description: "Websites use cookies to store information. Can you find what&apos;s stored?",
-    flag: "flag{c00k13_th13f}",
+    description: "Websites use cookies to store information. Can you find whats stored?",
+    flag: "TECHNIX{c00k13_th13f}",
     component: Level2
   },
-  "3": {
+  "1": {
     title: "JavaScript Console",
     description: "Developers leave messages in the console. Check what&apos;s there.",
     flag: "flag{c0ns0l3_m4st3r}",
-    component: Level3
+    component: Level8
   },
   "4": {
     title: "Local Storage",
@@ -103,7 +104,7 @@ export default function Level() {
         .find(row => row.startsWith('cookie_challenge='))
         ?.split('=')[1];
       
-      return cookieValue === 'flag{c00k13_th13f}';
+      return cookieValue === 'TECHNIX{c00k13_th13f}';
     }
     return false;
   };
@@ -111,7 +112,7 @@ export default function Level() {
   // Handle cookie game completion
   const handleCookieGameSuccess = () => {
     // Set the cookie for the challenge
-    document.cookie = "cookie_challenge=flag{c00k13_th13f}; path=/";
+    document.cookie = "cookie_challenge=TECHNIX{c00k13_th13f}; path=/";
     setCookieChallengeCompleted(true);
     setShowCookieGame(false);
   };
@@ -126,7 +127,7 @@ export default function Level() {
           <title>{`Level ${id}: ${level.title}`}</title>
         </Head>
         <header className={styles.levelHeader}>
-          <h1>Level {id}: {level.title}</h1>
+          <h1>COOKIE LEVEL</h1>
           <p>{level.description}</p>
         </header>
         <CookieGame onSuccess={handleCookieGameSuccess} />

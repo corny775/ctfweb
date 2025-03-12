@@ -12,8 +12,7 @@
     /* Multiple background options for maximum compatibility */
     background-image: url('/picture2.jpg');
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed; /* Add this to keep the background fixed while scrolling */
+    background-position: center; /* Add this to keep the background fixed while scrolling */
   }
   
   /* Fallback background div in case CSS background-image fails */

@@ -32,14 +32,14 @@ export default function Home() {
 
   const levels = [
     {
-      id: "1",
-      title: "Inspect Element",
-      description: "Learn to find hidden content in HTML"
-    },
-    {
       id: "2",
       title: "Cookie Monster",
       description: "Discover secrets stored in cookies"
+    },
+    {
+      id: "3",
+      title: "Inspect Element",
+      description: "Learn to find hidden content in HTML"
     },
     {
       id: "3",
@@ -92,7 +92,7 @@ export default function Home() {
         <nav className={styles.nav}>
           <Link href="/">Home</Link>
           <Link href="/about" >About</Link>
-          <Link href="/level/l3">L3</Link>
+          <Link href="/level/piclead">Sponsor</Link>
         </nav>
       </header>
 
@@ -115,7 +115,7 @@ export default function Home() {
         <div className={styles.grid}>
           {levels.map((level) => (
             <Link href={`/level/${level.id}`} key={level.id} className={styles.card}>
-              <div className={styles.levelBadge}>Level {level.id}</div>
+              <div className={styles.levelBadge}>{level.id}</div>
               <h3>{level.title} &rarr;</h3>
               <p>{level.description}</p>
             </Link>

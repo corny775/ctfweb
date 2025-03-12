@@ -11,7 +11,7 @@ export default function Level2() {
     id: "2",
     title: "Cookie Monster",
     description: "Websites use cookies to store information. Can you find whats stored?",
-    flag: "flag{c00k13_th13f}",
+    flag: "TECHNIX{c00k13_th13f}",
   };
 
   useEffect(() => {
@@ -43,7 +43,6 @@ export default function Level2() {
           <p className={styles.description}>{level.description}</p>
           
           <div className={styles.level2}>
-            <p>This website stores a cookie when you visit. Can you find whats inside?</p>
             <div className={styles.image}>
               <Image 
                 src="/api/placeholder/300/200" 
