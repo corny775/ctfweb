@@ -22,7 +22,7 @@ export default function SquidGameProfile() {
             />
             <h2 className={styles.playerName}>CTF COORDINATOR</h2>
             <span className={styles.playerName}>
-              The Capture The Flag (CTF) Coordinator is basically the wizard behind the curtain, pulling all the strings and praying nothing breaks (or explodes) on game day. They spend weeks herding cats — also known as challenge setters — making sure theres a good mix of mind-bending puzzles that will make participants cry, laugh, and question their life choices. From setting up servers that hopefully wont crash when everyone logs in at once, to testing flags that should be "hard to find but not impossible," they do it all — and if something goes wrong, guess who's getting spammed on Discord at 3 a.m.? Yup, the coordinator. Basically, theyre like a party planner, tech support, and evil mastermind all rolled into one.
+              The Capture The Flag (CTF) Coordinator is basically the wizard behind the curtain, pulling all the strings and praying nothing breaks (or explodes) on game day. They spend weeks herding cats — also known as challenge setters — making sure theres a good mix of mind-bending puzzles that will make participants cry, laugh, and question their life choices. From setting up servers that hopefully wont crash when everyone logs in at once, to testing flags that should be hard to find but not impossible, they do it all — and if something goes wrong, guess whos getting spammed on Discord at 3 a.m.? Yup, the coordinator. Basically, theyre like a party planner, tech support, and evil mastermind all rolled into one.
             </span>
           </div>
         </div>

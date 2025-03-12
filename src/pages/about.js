@@ -77,10 +77,10 @@ export default function About() {
 Prize Pool: ₹15,000</h2>
 <h3>
 You have entered the first Web challenge of this Capture the Flag. A voice echoes:
-"Hidden in plain sight, beyond what you see,
+Hidden in plain sight, beyond what you see,
 In the events highlights, lies the key.
 Find whats not shown, what whispers within,
-Unveil the flag, let the game begin."
+Unveil the flag, let the game begin.
 Look closer — every detail counts. Will you solve the riddle, or be left behind?
 </h3><h2>
 Event Highlights:</h2><h3>
