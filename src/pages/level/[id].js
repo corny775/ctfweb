@@ -17,6 +17,7 @@ import Level6 from './level6';
 import Level7 from './level7';
 import Level8 from './level8';
 import Level3 from './l3';
+import Level11 from './jailevel1';
 
 // Define the levels and their flags
 const levels = {
@@ -38,7 +39,7 @@ const levels = {
     flag: "flag{c0ns0l3_m4st3r}",
     component: Level8
   },
-  "4": {
+  "10": {
     title: "Local Storage",
     description: "Modern web apps store data locally. Can you find what&apos;s hidden?",
     flag: "flag{l0c4l_st0r4g3_h4ck3r}",
@@ -48,21 +49,21 @@ const levels = {
     title: "Network Detective",
     description: "What&apos;s being sent in the background? Check the network tab.",
     flag: "flag{n3tw0rk_sn1ff3r}",
-    component: Level5
+    component: Level11
   },
   "6": {
     title: "Cipher Decoder",
     description: "This message is encoded. Can you crack the code?",
     flag: "flag{d3c0d3r_r1ng}",
-    component: Level6
+    component: Level11
   },
   "7": {
     title: "Source Mapper",
     description: "Check the source maps to find what&apos;s hidden in the original code.",
     flag: "flag{s0urc3_m4pp3r}",
-    component: Level7
+    component: Level11
   },
-  "8": {
+  "4": {
     title: "Final Challenge",
     description: "Put all your skills together for the final challenge.",
     flag: "flag{w3b_h4ck3r_pr0}",

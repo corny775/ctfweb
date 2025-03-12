@@ -9,7 +9,7 @@ export default function Level8() {
   const level = {
     id: "8",
     title: "Final Challenge",
-    description: "Put all your skills together for the final challenge.",
+    description: "How to play? Count to 1_2_3",
     flag: "flag{w3b_h4ck3r_pr0}",
   };
 
@@ -50,7 +50,7 @@ export default function Level8() {
 
       <main className={styles.main}>
         <div className={styles.levelHeader}>
-          <h1>Level {level.id}: {level.title}</h1>
+          <h1>WEB CHALLENGE 4</h1>
           <div className={styles.navigationLinks}>
             <Link href="/home" className={styles.homeLink}>Back to Menu</Link>
           </div>
@@ -60,14 +60,13 @@ export default function Level8() {
           <p className={styles.description}>{level.description}</p>
           
           <div className={styles.level8}>
-            <p>For the final challenge, you need to combine multiple techniques.</p>
             <ol>
               <li>Find part 1 of the flag in a CSS variable</li>
               <li>Find part 2 in a JavaScript function</li>
               <li>Find the format in a hidden attribute</li>
             </ol>
             <div className={styles.finalHint}>
-              Remember everything you&apos;ve learned about web inspection.
+              Remember about web inspection.
             </div>
           </div>
 

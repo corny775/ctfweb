@@ -33,44 +33,34 @@ export default function Home() {
   const levels = [
     {
       id: "2",
-      title: "Cookie Monster",
+      title: "Cookie Carveout",
       description: "Discover secrets stored in cookies"
     },
     {
       id: "3",
-      title: "Inspect Element",
+      title: "Flag in Haystack",
       description: "Learn to find hidden content in HTML"
     },
     {
-      id: "3",
-      title: "JavaScript Console",
+      id: "4",
+      title: "Tri-Clue Gambit",
       description: "Find messages hidden in developer console"
     },
     {
-      id: "4",
-      title: "Local Storage",
+      id: "5",
+      title: "JAI CHALLENGE",
       description: "Hunt for data in browser's local storage"
     },
     {
-      id: "5",
-      title: "Network Detective",
+      id: "6",
+      title: "JAI CHALLENEGE",
       description: "Intercept network requests for hidden information"
     },
     {
-      id: "6",
-      title: "Cipher Decoder",
+      id: "7",
+      title: "JAI CHALLENEGE",
       description: "Decode an encoded message to find the flag"
     },
-    {
-      id: "7",
-      title: "Source Mapper",
-      description: "Explore JavaScript source maps for secrets"
-    },
-    {
-      id: "8",
-      title: "Final Challenge",
-      description: "Combine all techniques for the ultimate challenge"
-    }
   ];
 
   return (
@@ -116,8 +106,7 @@ export default function Home() {
           {levels.map((level) => (
             <Link href={`/level/${level.id}`} key={level.id} className={styles.card}>
               <div className={styles.levelBadge}>{level.id}</div>
-              <h3>{level.title} &rarr;</h3>
-              <p>{level.description}</p>
+              <h3>{level.title}</h3>
             </Link>
           ))}
         </div>

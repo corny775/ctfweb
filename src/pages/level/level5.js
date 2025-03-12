@@ -9,8 +9,8 @@ export default function Level5() {
   const level = {
     id: "5",
     title: "Network Detective",
-    description: "What&apos;s being sent in the background? Check the network tab.",
-    flag: "flag{n3tw0rk_sn1ff3r}",
+    description: "Whats being sent in the background? Check the network tab.",
+    flag: "flag{char}",
   };
 
   useEffect(() => {
@@ -20,7 +20,7 @@ export default function Level5() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'X-Secret-Flag': 'flag{n3tw0rk_sn1ff3r}'
+          'X-Secret-Flag': 'flag{char}'
         },
         body: JSON.stringify({ event: 'level_view', level: level.id })
       }).catch(() => {
@@ -44,7 +44,7 @@ export default function Level5() {
 
       <main className={styles.main}>
         <div className={styles.levelHeader}>
-          <h1>Level {level.id}: {level.title}</h1>
+          <h1>CLUE 2: {level.title}</h1>
           <div className={styles.navigationLinks}>
             <Link href="/home" className={styles.homeLink}>Back to Menu</Link>
           </div>
@@ -54,7 +54,6 @@ export default function Level5() {
           <p className={styles.description}>{level.description}</p>
           
           <div className={styles.level5}>
-            <p>This page is sending analytics data in the background. Can you intercept it?</p>
             <div className={styles.activityLog}>
               <p>User activity being monitored...</p>
               <div className={styles.spinner}></div>

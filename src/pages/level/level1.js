@@ -10,7 +10,7 @@ export default function Level1() {
     id: "1",
     title: "Inspect Element",
     description: "Sometimes what you see isnt everything there is.",
-    flag: "flag{hidden_in_plain_sight}",
+    flag: "flag{picka}",
   };
 
   // Function to reveal flag for demo purposes
@@ -27,7 +27,7 @@ export default function Level1() {
 
       <main className={styles.main}>
         <div className={styles.levelHeader}>
-          <h1>Level {level.id}: {level.title}</h1>
+          <h1>CLUE 1: {level.title}</h1>
           <div className={styles.navigationLinks}>
             <Link href="/home" className={styles.homeLink}>Back to Menu</Link>
           </div>
@@ -37,9 +37,8 @@ export default function Level1() {
           <p className={styles.description}>{level.description}</p>
           
           <div className={styles.level1}>
-            <p>Look carefully at this page. The flag is hidden somewhere.</p>
             <div className={styles.hiddenContainer}>
-              <span style={{ display: 'none' }}>{"flag{hidden_in_plain_sight}"}</span>
+              <span style={{ display: 'none' }}>{"flag{picka}"}</span>
             </div>
           </div>
 
