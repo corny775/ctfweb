@@ -75,9 +75,9 @@ export default function Home() {
 
       <header className={styles.header}>
         <div className={styles.logo}>
-          <div className={styles.circle}></div>
-          <div className={styles.triangle}></div>
-          <div className={styles.square}></div>
+        <Link href="/"><div className={styles.circle}></div></Link>
+        <Link href="/"><div className={styles.triangle}></div></Link>
+        <Link href="/"><div className={styles.square}></div></Link>
         </div>
         <nav className={styles.nav}>
           <Link href="/">Home</Link>

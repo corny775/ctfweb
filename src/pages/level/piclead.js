@@ -1,6 +1,7 @@
 // pages/piclead.js
 import Head from 'next/head';
 import styles from '@/styles/pic.module.css';
+import Link from 'next/link';
 
 export default function SquidGameProfile() {
   return (
@@ -15,11 +16,14 @@ export default function SquidGameProfile() {
       <main className={styles.main}>
         <div className={styles.card}>
           <div className={styles.profileContainer}>
+            <Link href="/bridge">
             <img 
               src="/piclead.jpg" 
               alt="Profile Picture" 
               className={styles.profilePic}
             />
+            </Link>
+            
             <h2 className={styles.playerName}>CTF COORDINATOR</h2>
             <span className={styles.playerName}>
               The Capture The Flag (CTF) Coordinator is basically the wizard behind the curtain, pulling all the strings and praying nothing breaks (or explodes) on game day. They spend weeks herding cats — also known as challenge setters — making sure theres a good mix of mind-bending puzzles that will make participants cry, laugh, and question their life choices. From setting up servers that hopefully wont crash when everyone logs in at once, to testing flags that should be hard to find but not impossible, they do it all — and if something goes wrong, guess whos getting spammed on Discord at 3 a.m.? Yup, the coordinator. Basically, theyre like a party planner, tech support, and evil mastermind all rolled into one.

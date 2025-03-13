@@ -18,6 +18,7 @@ import Level7 from './level7';
 import Level8 from './level8';
 import Level3 from './l3';
 import Level11 from './jailevel1';
+import Home from './sound';
 
 // Define the levels and their flags
 const levels = {
@@ -25,7 +26,7 @@ const levels = {
     title: "Inspect Element",
     description: "Sometimes what you see isnt everything there is.",
     flag: "flag{hidden_in_plain_sight}",
-    component: Level3
+    component: Home
   },
   "2": {
     title: "Cookie Monster",

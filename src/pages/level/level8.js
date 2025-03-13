@@ -61,9 +61,10 @@ export default function Level8() {
           
           <div className={styles.level8}>
             <ol>
-              <li>Find part 1 of the flag in a CSS variable</li>
-              <li>Find part 2 in a JavaScript function</li>
-              <li>Find the format in a hidden attribute</li>
+              <li>Find part 1</li>
+              <li>Find part 2</li>
+              <li>Find part 3</li>
+              <li>write in part 1 _ part 2 _ part 3</li>
             </ol>
             <div className={styles.finalHint}>
               Remember about web inspection.
