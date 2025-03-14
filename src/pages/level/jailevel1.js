@@ -15,7 +15,7 @@ export default function Level1() {
   // Add useEffect to redirect to YouTube
   useEffect(() => {
     // Redirect to YouTube
-    window.location.href = "https://www.youtube.com";
+    window.location.href = "https://ctfwebchallenge5technix2025.netlify.app";
   }, []);
 
   return (

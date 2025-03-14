@@ -69,8 +69,8 @@ export default function Home() {
         <div className={styles.challengeInfo}>
           <h2>CTF Challenge Rules:</h2>
           <ul>
-            <li>Find the hidden flag on each level</li>
-            <li>Each flag has the format: flag&#123;something_here&#125;</li>
+            <li>Find the hidden flag on each challenge</li>
+            <li>Each flag has the format: TECHNIX&#123;something_here&#125;</li>
             <li>Use browser dev tools and your security knowledge</li>
             <li>No automated scanning tools allowed</li>
           </ul>
