@@ -48,17 +48,17 @@ export default function Home() {
     },
     {
       id: "5",
-      title: "JAI CHALLENGE",
+      title: "Turn the Light Off",
       description: "Hunt for data in browser's local storage"
     },
     {
       id: "6",
-      title: "JAI CHALLENEGE",
+      title: "False Cookie",
       description: "Intercept network requests for hidden information"
     },
     {
       id: "7",
-      title: "JAI CHALLENEGE",
+      title: "456 by 456",
       description: "Decode an encoded message to find the flag"
     },
   ];

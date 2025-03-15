@@ -61,10 +61,10 @@ export default function Level8() {
           
           <div className={styles.level8}>
             <ol>
-              <li>Find part 1</li>
-              <li>Find part 2</li>
-              <li>Find part 3</li>
-              <li>write in part 1 _ part 2 _ part 3</li>
+              <li>Find clue 1</li>
+              <li>Find clue 2</li>
+              <li>Find clue 3</li>
+              <li>write in TECHNIX&#123;clue 1 _ clue 2 _ clue 3&#125;</li>
             </ol>
             <div className={styles.finalHint}>
               Remember about web inspection.

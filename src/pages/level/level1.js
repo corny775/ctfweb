@@ -38,7 +38,7 @@ export default function Level1() {
           
           <div className={styles.level1}>
             <div className={styles.hiddenContainer}>
-              <span style={{ display: 'none' }}>{"flag{picka}"}</span>
+              <span style={{ display: 'none' }}>{"CLUE 1= picka"}</span>
             </div>
           </div>
 

@@ -85,7 +85,7 @@ export default function About() {
           </h3><h2>
             Event Highlights:</h2><h3>
             → Team Name: Ceaser IV</h3><h2></h2><h3>
-            → Mode: wtsrwsv lmhiw e tpeciv alswi ryqfiv yrpsgow oic</h3><h2></h2><h3>
+            → Mode: gpmgo xli wtsrwsvw tmg erh tpec xli fvmhki keqi</h3><h2></h2><h3>
             → Format: TECHNIX&#123;?_?&#125;</h3><h2></h2><h3>
             → Challenge Types: Cryptography, Web Exploitation, Reverse Engineering, Forensics, OSINT, and more</h3><h2></h2><h2>
             → Rules:</h2><h3>

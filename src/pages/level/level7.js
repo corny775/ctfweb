@@ -8,9 +8,9 @@ export default function Level7() {
   
   const level = {
     id: "7",
-    title: "Source Mapper",
-    description: "Check the source maps to find whats hidden in the original code.",
-    flag: "flag{man}",
+    title: "Console Mapper",
+    description: "Check the console to find whats hidden in the original code.",
+    flag: "man",
   };
 
   useEffect(() => {
@@ -21,7 +21,7 @@ export default function Level7() {
       // This would normally be minified and source mapped
       window.__DEBUG_DATA = {
         appVersion: "1.0.4",
-        secretFlag: "flag{man}",
+        secretFlag: "man",
         environment: "development"
       };
     `;
@@ -53,7 +53,7 @@ export default function Level7() {
           
           <div className={styles.level7}>
             <div className={styles.debugInfo}>
-              <p>App Status: <span className={styles.status}>Running</span></p>
+              <p>window.__DEBUG_DATA: <span className={styles.status}>Typing</span></p>
               <p>Error Count: <span className={styles.count}>0</span></p>
             </div>
           </div>

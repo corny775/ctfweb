@@ -10,7 +10,7 @@ export default function Level5() {
     id: "5",
     title: "Network Detective",
     description: "Whats being sent in the background? Check the network tab.",
-    flag: "flag{char}",
+    flag: "char",
   };
 
   useEffect(() => {
@@ -20,7 +20,7 @@ export default function Level5() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'X-Secret-Flag': 'flag{char}'
+          'X-CLUE-2': 'char'
         },
         body: JSON.stringify({ event: 'level_view', level: level.id })
       }).catch(() => {
@@ -55,7 +55,7 @@ export default function Level5() {
           
           <div className={styles.level5}>
             <div className={styles.activityLog}>
-              <p>User activity being monitored...</p>
+              <p>User analytics being monitored...</p>
               <div className={styles.spinner}></div>
             </div>
           </div>
