@@ -18,6 +18,8 @@ import Level7 from './level7';
 import Level8 from './level8';
 import Level3 from './l3';
 import Level11 from './jailevel1';
+import Level12 from './jailevel2';
+import Level13 from './jailevel3';
 import Home from './sound';
 
 // Define the levels and their flags
@@ -56,13 +58,13 @@ const levels = {
     title: "Cipher Decoder",
     description: "This message is encoded. Can you crack the code?",
     flag: "flag{d3c0d3r_r1ng}",
-    component: Level11
+    component: Level12
   },
   "7": {
     title: "Source Mapper",
     description: "Check the source maps to find what&apos;s hidden in the original code.",
     flag: "flag{s0urc3_m4pp3r}",
-    component: Level11
+    component: Level13
   },
   "4": {
     title: "Final Challenge",
