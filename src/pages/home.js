@@ -114,7 +114,7 @@ export default function Home() {
         <div className={styles.instructions}>
           <h2>How to Play</h2>
           <ol>
-            <li><Link href="/level/geogussr">inspect element</Link></li>
+            <li><Link href="/level/Level1">inspect element</Link></li>
             <li><Link href="/level/level5">Network Detective</Link></li>
             <li><Link href="/level/level7">Source Mapper</Link></li>
           </ol>
