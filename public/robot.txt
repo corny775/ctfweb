@@ -1,1 +1,1 @@
-not allowed: /level/l3
+not allowed: /level/geogussr

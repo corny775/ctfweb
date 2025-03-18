@@ -16,10 +16,10 @@ export default function BridgeGame() {
     { left: true, right: false },
     { left: false, right: true },
     { left: true, right: false },
-    { left: false, right: true },
     { left: true, right: false },
     { left: false, right: true },
     { left: true, right: false },
+    { left: false, right: true },
     { left: false, right: true },
   ];
 

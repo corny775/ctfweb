@@ -53,12 +53,12 @@ export default function Home() {
     },
     {
       id: "6",
-      title: "False Cookie",
+      title: "Something Crumbles",
       description: "Intercept network requests for hidden information"
     },
     {
       id: "7",
-      title: "456 by 456",
+      title: "Winner's perspective",
       description: "Decode an encoded message to find the flag"
     },
   ];
@@ -114,7 +114,7 @@ export default function Home() {
         <div className={styles.instructions}>
           <h2>How to Play</h2>
           <ol>
-            <li><Link href="/level/level1">inspect element</Link></li>
+            <li><Link href="/level/geogussr">inspect element</Link></li>
             <li><Link href="/level/level5">Network Detective</Link></li>
             <li><Link href="/level/level7">Source Mapper</Link></li>
           </ol>

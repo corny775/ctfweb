@@ -21,7 +21,7 @@ export default function Level7() {
       // This would normally be minified and source mapped
       window.__DEBUG_DATA = {
         appVersion: "1.0.4",
-        secretFlag: "man",
+        3rdclue: "man",
         environment: "development"
       };
     `;
