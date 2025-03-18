@@ -10,7 +10,7 @@ export default function Document() {
           rel="stylesheet"
         />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" strategy="beforeInteractive" />
+        {/* Remove the synchronous script from here */}
       </Head>
       <body>
         <Main />
