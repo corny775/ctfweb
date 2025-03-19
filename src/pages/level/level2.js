@@ -16,7 +16,7 @@ export default function Level2() {
 
   useEffect(() => {
     // Set a cookie with the flag
-    document.cookie = "secret_data=flag{c00k13_th13f}; path=/";
+    document.cookie = "secret_data=c00k13_th13f; path=/";
   }, []);
 
   // Function to reveal flag for demo purposes
