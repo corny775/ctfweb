@@ -136,7 +136,7 @@ export default function SquidGeoGuessr() {
     
     if (nextRoundNumber > gameState.totalRounds) {
       // Win condition: score more than half the possible points
-      const isWinner = gameState.score > 12500;
+      const isWinner = gameState.score > 22500;
       
       setGameState({
         ...gameState,

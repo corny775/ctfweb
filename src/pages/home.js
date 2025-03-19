@@ -46,21 +46,6 @@ export default function Home() {
       title: "Tri-Clue Gambit",
       description: "Find messages hidden in developer console"
     },
-    {
-      id: "5",
-      title: "Turn the Light Off",
-      description: "Hunt for data in browser's local storage"
-    },
-    {
-      id: "6",
-      title: "Something Crumbles",
-      description: "Intercept network requests for hidden information"
-    },
-    {
-      id: "7",
-      title: "Winner's perspective",
-      description: "Decode an encoded message to find the flag"
-    },
   ];
 
   return (
