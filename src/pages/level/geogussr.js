@@ -212,7 +212,7 @@ export default function SquidGeoGuessr() {
               onClick={restartGame}
               className={styles.playAgainButton}
             >
-              {gameState.winner ? "Flag : TECHNIX{so_much_finding}" : "Try Again"}
+              {gameState.winner ? "next clue:https://www.youtube.com/watch?v=jVpsLMCIB0Y&t=442s" : "Try Again"}
             </button>
           </div>
         </div>

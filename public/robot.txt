@@ -1,1 +1,1 @@
-not allowed: /level/geogussr
+not allowed: /terminal

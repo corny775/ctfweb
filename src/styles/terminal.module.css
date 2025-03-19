@@ -1,0 +1,86 @@
+.terminalContainer {
+    padding: 2rem;
+    min-height: 100vh;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .terminalWindow {
+    width: 100%;
+    max-width: 800px;
+    background-color: #000;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border: 1px solid #333;
+  }
+  
+  .terminalHeader {
+    background-color: #2d2d2d;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #444;
+  }
+  
+  .terminalButtons {
+    display: flex;
+    margin-right: 15px;
+  }
+  
+  .terminalButton {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .terminalTitle {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 14px;
+    color: #ddd;
+  }
+  
+  .terminalContent {
+    padding: 15px;
+    height: 400px;
+    overflow-y: auto;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #00ff00;
+  }
+  
+  .terminalLine {
+    margin-bottom: 5px;
+    word-break: break-word;
+    white-space: pre-wrap;
+  }
+  
+  .terminalPrompt {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .terminalInput {
+    background-color: transparent;
+    border: none;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    outline: none;
+    flex-grow: 1;
+    margin-left: 5px;
+    caret-color: #00ff00;
+  }
+  
+  .terminalHelp {
+    margin-top: 15px;
+    color: #888;
+    font-size: 14px;
+    text-align: center;
+  }
