@@ -3,7 +3,7 @@ import styles from '@/styles/terminal.module.css';
 
 const Terminal = () => {
   const [input, setInput] = useState('');
-  const [history, setHistory] = useState(['Welcome to Terminal Simulator. Type ls to begin.']);
+  const [history, setHistory] = useState(['Welcome to Terminal Simulator.']);
   const [currentDirectory, setCurrentDirectory] = useState('/');
   const inputRef = useRef(null);
   const terminalRef = useRef(null);
@@ -122,7 +122,7 @@ const Terminal = () => {
           </div>
         </div>
       </div>
-      <div className={styles.terminalHelp} >
+      <div style={{ display: 'none' }} >
         Available commands: ls, cd [directory]
       </div>
     </div>
