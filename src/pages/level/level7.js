@@ -8,7 +8,7 @@ export default function Level7() {
   
   const level = {
     id: "7",
-    title: "Console Mapper",
+    title: "Source Mapper",
     description: "Check the console to find whats hidden in the original code.",
     flag: "man",
   };
@@ -25,7 +25,7 @@ export default function Level7() {
         environment: "development"
       };
     `;
-    document.head.appendChild(script);
+    document.body.appendChild(script);
   }, []);
 
   // Function to reveal flag for demo purposes
