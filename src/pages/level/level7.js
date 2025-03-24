@@ -53,7 +53,7 @@ export default function Level7() {
           
           <div className={styles.level7}>
             <div className={styles.debugInfo}>
-              <p>window.__DEBUG_DATA: <span className={styles.status}>Typing</span></p>
+              <p>window.__DEBUG_DATA: <span className={styles.status}>Search in Level7</span></p>
               <p>Error Count: <span className={styles.count}>0</span></p>
             </div>
           </div>
